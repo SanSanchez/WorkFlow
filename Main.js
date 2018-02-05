@@ -1,3 +1,4 @@
+/* jshint node: true */
 /*
     Purpose:
         To ease the task of finding and applying to jobs.
@@ -9,9 +10,10 @@
         inputted jobs.
  */
 
-function func()
-{
+function func() {
+    'use strict';
     console.log("Hello World!");
 }
+
 
 func();
